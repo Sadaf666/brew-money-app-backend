@@ -10,6 +10,6 @@ export class AppService {
 	ENV: string = this.configService.get<string>('NODE_ENV');
 
 	getHello(): string {
-		return `WHATSAPP listening on port - ${this.PORT} in ${this.ENV} mode.`;
+		return `BREW MONEY listening on port - ${this.PORT} in ${this.ENV} mode.`;
 	}
 }

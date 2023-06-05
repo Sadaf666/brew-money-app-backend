@@ -8,8 +8,8 @@ const user_module_1 = require("./components/user/user.module");
 const { BASE_URL } = process.env;
 function swaggerSetup(app) {
     const config = new swagger_1.DocumentBuilder()
-        .setTitle('WHATSAPP')
-        .setDescription('Whatsapp APIs')
+        .setTitle('BREW MONEY')
+        .setDescription('Brew money APIs')
         .addServer(BASE_URL)
         .setVersion('1.0')
         .addBearerAuth({

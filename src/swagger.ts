@@ -13,8 +13,8 @@ const { BASE_URL } = process.env;
 
 export function swaggerSetup(app: INestApplication) {
 	const config = new DocumentBuilder()
-		.setTitle('WHATSAPP')
-		.setDescription('Whatsapp APIs')
+		.setTitle('BREW MONEY')
+		.setDescription('Brew money APIs')
 		.addServer(BASE_URL)
 		.setVersion('1.0')
 		.addBearerAuth(

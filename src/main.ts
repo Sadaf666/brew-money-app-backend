@@ -36,7 +36,7 @@ async function bootstrap() {
 
 	await app.listen(PORT, () => {
 		console.log(
-			`WHATSAPP listening on port - ${PORT} in ${NODE_ENV} mode.`
+			`BREW MONEY listening on port - ${PORT} in ${NODE_ENV} mode.`
 		);
 	});
 }

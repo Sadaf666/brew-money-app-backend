@@ -19,7 +19,7 @@ async function bootstrap() {
     (0, swagger_1.swaggerSetup)(app);
     const { PORT, NODE_ENV } = process.env;
     await app.listen(PORT, () => {
-        console.log(`WHATSAPP listening on port - ${PORT} in ${NODE_ENV} mode.`);
+        console.log(`BREW MONEY listening on port - ${PORT} in ${NODE_ENV} mode.`);
     });
 }
 bootstrap();

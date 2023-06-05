@@ -19,7 +19,7 @@ let AppService = class AppService {
         this.ENV = this.configService.get('NODE_ENV');
     }
     getHello() {
-        return `WHATSAPP listening on port - ${this.PORT} in ${this.ENV} mode.`;
+        return `BREW MONEY listening on port - ${this.PORT} in ${this.ENV} mode.`;
     }
 };
 AppService = __decorate([
